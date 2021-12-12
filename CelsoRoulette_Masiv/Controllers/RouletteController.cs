@@ -36,8 +36,22 @@ namespace CelsoRoulette_Masiv_Api.Controllers
                 }
                 else
                 {
-                    return StatusCode(500, ConfigConst.ERRORCREATEREOULETTE);
+                    return StatusCode(500, ConfigConst.ERRORCREATEROULETTE);
                 }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
+        [HttpPost]
+        [Route("OpenOne")]
+        public async Task<ActionResult<ResultOpenModel>> OpenOne(Guid rouletteId)
+        {
+            try
+            {
+                ResultOpenModel ResultOpenModel = await _IRouletteRepository.OpenOne(rouletteId);
+                return Ok(ResultOpenModel);
             }
             catch (Exception ex)
             {
