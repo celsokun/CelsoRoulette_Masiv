@@ -12,18 +12,22 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "roulette",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "RouletteColeccion": "Roulette",
+        "ServerName": "localhost:6379"
       }
     },
     "CelsoRoulette_Masiv": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "roulette",
+      "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "RouletteColeccion": "Roulette",
+        "ServerName": "localhost:6379"
       }
     }
   }

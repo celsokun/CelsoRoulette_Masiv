@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoRoulette_Masiv", "CelsoRoulette_Masiv\CelsoRoulette_Masiv.csproj", "{28CA4440-39B8-4EB8-B115-A8DE33AC15C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoRoulette_Masiv_Api", "CelsoRoulette_Masiv\CelsoRoulette_Masiv_Api.csproj", "{28CA4440-39B8-4EB8-B115-A8DE33AC15C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoRoulette_Masiv_Dto", "CelsoRoulette_Masiv_Dto\CelsoRoulette_Masiv_Dto.csproj", "{0A53F40A-0695-4557-B9DD-D37897C9F9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoRoulette_Masiv_Repository", "CelsoRoulette_Masiv_Da\CelsoRoulette_Masiv_Repository.csproj", "{0CF213FD-6761-4093-90F5-827F600CEA56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{28CA4440-39B8-4EB8-B115-A8DE33AC15C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CA4440-39B8-4EB8-B115-A8DE33AC15C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CA4440-39B8-4EB8-B115-A8DE33AC15C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A53F40A-0695-4557-B9DD-D37897C9F9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A53F40A-0695-4557-B9DD-D37897C9F9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A53F40A-0695-4557-B9DD-D37897C9F9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A53F40A-0695-4557-B9DD-D37897C9F9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF213FD-6761-4093-90F5-827F600CEA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF213FD-6761-4093-90F5-827F600CEA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF213FD-6761-4093-90F5-827F600CEA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF213FD-6761-4093-90F5-827F600CEA56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

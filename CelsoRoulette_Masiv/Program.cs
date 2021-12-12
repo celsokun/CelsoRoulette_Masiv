@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-namespace CelsoRoulette_Masiv
+namespace CelsoRoulette_Masiv_Api
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
