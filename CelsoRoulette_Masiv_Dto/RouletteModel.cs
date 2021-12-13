@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CelsoRoulette_Masiv_Dto
@@ -12,5 +13,6 @@ namespace CelsoRoulette_Masiv_Dto
         [Required]
         public DateTime CreationDate { get; set; }
         public DateTime ModificationDate { get; set; }
+        public List<BetModel> Bets { get; set; }
     }
 }

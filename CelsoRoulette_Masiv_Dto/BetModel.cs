@@ -6,7 +6,7 @@ namespace CelsoRoulette_Masiv_Dto
     {
         public Guid IdBet { get; set; }
         [Required]
-        public Guid RouletteId { get; set; }
+        public Guid IdRoulette { get; set; }
         public string UserId { get; set; }
         [Range(minimum: 0, maximum: 36, ErrorMessage = ConfigConst.ERRORBETNUMBER)]
         public short? BetNumber { get; set; }

@@ -10,5 +10,11 @@ namespace CelsoRoulette_Masiv_Dto
         public const string OPENROULETTE = "Ruleta abierta.";
         public const string ERRORBETNUMBER = "Numero por fuera del rango.";
         public const string ERRORBETVALUE = "Apuesta por fuera del rango.";
+        public const string BETSAVE = "Apuesta Guardada.";
+        public const string ERRORCLOSEROULETTE = "Ya la ruleta se encuentra cerrada.";
+        public const string ERRORNOTEXITSROULETTE = "No existe la ruleta.";
+        public const string ERRORBETCOLORORNUMBER = "Numeros y colores no validos.";
+        public const string ERRORBETCOLORANDNUMBER = "Solo puede apostar por numeros o colores en cada apuesta.";
+        public const string ERRORUSERID = "Error no se lee el usuario.";
     }
 }
