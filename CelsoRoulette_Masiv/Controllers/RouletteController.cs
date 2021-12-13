@@ -65,6 +65,7 @@ namespace CelsoRoulette_Masiv_Api.Controllers
             {
                 Request.Headers.TryGetValue("UserId", out var userId);
                 NewBet.UserId = userId;
+                NewBet.IdBet = Guid.NewGuid();
                 if (NewBet.BetColor != null) { NewBet.BetColor = NewBet.BetColor.ToUpper(); }
                 ResultModel ResultModel = await _IRouletteRepository.NewBet(NewBet);
                 return Ok(ResultModel);
@@ -81,6 +82,20 @@ namespace CelsoRoulette_Masiv_Api.Controllers
             try
             {
                 return Ok(await _IRouletteRepository.GetAllRoulette());
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
+        [HttpPost]
+        [Route("CloseOne")]
+        public async Task<ActionResult<ResultRouletteCloseModel>> CloseOne(Guid rouletteId)
+        {
+            try
+            {
+                ResultRouletteCloseModel ResultModel = await _IRouletteRepository.CloseOne(rouletteId);
+                return Ok(ResultModel);
             }
             catch (Exception ex)
             {

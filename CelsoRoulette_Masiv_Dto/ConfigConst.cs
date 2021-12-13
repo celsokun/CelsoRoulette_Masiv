@@ -16,5 +16,7 @@ namespace CelsoRoulette_Masiv_Dto
         public const string ERRORBETCOLORORNUMBER = "Numeros y colores no validos.";
         public const string ERRORBETCOLORANDNUMBER = "Solo puede apostar por numeros o colores en cada apuesta.";
         public const string ERRORUSERID = "Error no se lee el usuario.";
+        public const string CLOSEROULETTE = "Ruleta Cerrada.";
+        public const string ERRORNOFOUDROULETTE = "No se encuentra la ruleta.";
     }
 }
